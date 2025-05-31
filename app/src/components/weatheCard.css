@@ -1,0 +1,77 @@
+.weather-card {
+    height: 400px;
+    width: 300px;
+    background-color: #2f4680;
+    border-radius: 20px;
+}
+
+.weather-card-name {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.weather-card-input {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.weather-card-search-bar {
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.weather-card-search-icon {
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.weather-card-main-icon {
+    height: 100px;
+    width: 100px;
+    margin: 10px 30px;
+}
+
+.grid-box {
+    display: grid;
+    place-items: center;
+}
+
+.weather-card-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+.weather-card-loct-icon , .weather-card-temp-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.weather-card-temp , .weather-card-loct {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+}
+
+.weather-card-temp-number , .weather-card-loct-text {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.weather-card-metrics {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 30px;
+}
+
